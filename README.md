@@ -122,3 +122,5 @@ If your TM data is in an Excel format (`.xlsx`), you can use the `convert-xlsx.p
 - **File Paths**: Ensure that all file paths you enter are correct. Incorrect paths will result in errors.
 - **Language Codes**: Make sure the language codes match exactly with what's in your TMX or Excel file, including any regional variations.
 - **JSONL File**: The generated JSONL file is formatted for fine-tuning GPT-4o models and should be ready for use immediately after creation.
+
+## Read the full guide at: https://atlasverse.ai/blogs/how-to-fine-tune-gpt4o-models-for-machine-translation-using-translation-memories/
