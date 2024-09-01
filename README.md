@@ -6,14 +6,26 @@ This repository contains scripts to help you convert your translation memory (TM
 
 If your cleaned TM data is in a TMX format, you can use the `convert-tmx.py` script to generate the JSONL file.
 
-## Running the Script
-
-To run the script, follow these steps:
+### Prerequisites
 
 1. **Ensure Python is Installed**:
-   - Make sure Python is installed on your machine. You can check by running `python --version` in your command prompt or terminal.
+   - Make sure Python is installed on your machine. You can check by running the following command in your command prompt or terminal:
+     ```bash
+     python --version
+     ```
+   - If Python is not installed, you can download it from [python.org](https://www.python.org/downloads/).
 
-2. **Navigate to the Script Directory**:
+2. **Install Required Python Packages**:
+   - The scripts in this repository require a few Python packages. You can install them using `pip`. Open your command prompt or terminal and run the following command:
+     ```bash
+     pip install pandas lxml openpyxl
+     ```
+   - This command will install:
+     - **pandas**: Used for handling data frames and Excel files.
+     - **lxml**: Used for parsing and manipulating XML files (like TMX).
+     - **openpyxl**: Used by `pandas` to read and write Excel files (`.xlsx` format).
+
+3. **Navigate to the Script Directory**:
    - Open your command prompt or terminal.
    - Navigate to the directory where the script is located. For example:
      ```bash
