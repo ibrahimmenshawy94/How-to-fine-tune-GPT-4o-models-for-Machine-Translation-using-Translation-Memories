@@ -36,7 +36,7 @@ To run the script, follow these steps:
        ```
      - On Mac/Linux:
        ```
-       /Users/ibrah/Desktop/tmx_test.tmx
+       ~/tmx_test/tmx_test.tmx
        ```
 
    **2. Enter the Source Language**:
@@ -75,7 +75,7 @@ To run the script, follow these steps:
        ```
      - On Mac/Linux:
        ```
-       /Users/ibrah/Desktop/output.jsonl
+       ~/tmx_test/output.jsonl
        ```
 
 5. **Run the Script**:
